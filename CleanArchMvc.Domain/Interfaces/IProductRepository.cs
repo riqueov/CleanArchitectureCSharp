@@ -1,8 +1,5 @@
 ﻿using CleanArchMvc.Domain.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CleanArchMvc.Domain.Interfaces
@@ -11,11 +8,11 @@ namespace CleanArchMvc.Domain.Interfaces
     {
         Task<IEnumerable<Product>> GetCategories();
 
-        Task<Product> GetById(int? id);
+        Task<Product> GetByIdAsync(int? id);
         Task<Product> GetProductCategoryAsync(int? id);
 
-        Task<Product> Create(Product product);
-        Task<Product> Update(Product product);
-        Task<Product> Delete(Product product);
+        Task<Product> CreateAsync(Product product);
+        Task<Product> UpdateAsync(Product product);
+        Task<Product> DeleteAsync(Product product);
     }
 }

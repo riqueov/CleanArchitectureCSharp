@@ -11,10 +11,10 @@ namespace CleanArchMvc.Domain.Interfaces
     {
         Task<IEnumerable<Category>> GetCategories();
 
-        Task<Product> GetById(int? id);
+        Task<Category> GetByIdAsync(int? id);
 
-        Task<Product> Create(Category category);
-        Task<Product> Update(Category category);
-        Task<Product> Delete(Category category);
+        Task<Category> CreateAsync(Category category);
+        Task<Category> UpdateAsync(Category category);
+        Task<Category> RemoveAsync(Category category);
     }
 }
