@@ -12,31 +12,33 @@ namespace CleanArchMvc.Domain.Entities
         public string Name { get; private set; }
         public string Description { get; private set; }
         public decimal Price { get; private set; }
+        public string Size { get; private set; }
+        public string Color { get; private set; }
         public int Stock { get; private set; }
         public string Image { get; private set; }
 
-        public Product(string name, string description, decimal price, int stock, string image) //construtor sem Id
+        public Product(string name, string description, decimal price, string size, string color, int stock, string image) //construtor sem Id
         {
-            ValidateDomain(name, description, price, stock, image);
+            ValidateDomain(name, description, price, size, color, stock, image);
         }
 
-        public Product(int id, string name, string description, decimal price, int stock, string image) //construtor com Id
+        public Product(int id, string name, string description, decimal price, string size, string color, int stock, string image) //construtor com Id
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id Value.");
             Id = id;
-            ValidateDomain(name, description, price, stock, image);
+            ValidateDomain(name, description, price, size, color, stock, image);
         }
 
-        public void Update(int id, string name, string description, decimal price, int stock, string image, int categoryId)
+        public void Update(int id, string name, string description, decimal price, string size, string color, int stock, string image, int categoryId)
         {
-            ValidateDomain(name, description, price, stock, image);
+            ValidateDomain(name, description, price, size, color, stock, image);
             CategoryId = categoryId;
         }
 
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        private void ValidateDomain(string name, string description, decimal price, int stock, string image) //regra de negócio
+        private void ValidateDomain(string name, string description, decimal price, string size, string color, int stock, string image) //regra de negócio
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid Name. Name is required!");
             DomainExceptionValidation.When(name.Length < 3, "Invalid Name. Name is too short, minimum 3 characters!");//
@@ -48,7 +50,13 @@ namespace CleanArchMvc.Domain.Entities
             
             DomainExceptionValidation.When(price < 0, "Invalid Price value!");
             Price = price;
-            
+
+            DomainExceptionValidation.When(size?.Length > 50, "Invalid color name, too long, maximum 50 characters!");//
+            Size = size;
+
+            DomainExceptionValidation.When(color?.Length > 50, "Invalid color name, too long, maximum 50 characters!");//
+            Color = color;
+
             DomainExceptionValidation.When(stock < 0, "Invalid Stock value!");
             Stock = stock;
 

@@ -12,9 +12,9 @@ namespace CleanArchMvc.Infra.Data.EntitiesConfiguration
             builder.Property(p => p.Name).HasMaxLength(100).IsRequired();
 
             builder.HasData(
-                new Category(1, "Moletons"),
-                new Category(2, "Camisetas"),
-                new Category(3, "Tenis")
+                new Category(1, "Hoodies"),
+                new Category(2, "T-Shirts"),
+                new Category(3, "Sneakers")
             );
         }
     }

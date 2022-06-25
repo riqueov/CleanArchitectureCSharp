@@ -1,4 +1,6 @@
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.deps.json
+C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.runtimeconfig.json
+C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.runtimeconfig.dev.json
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.dll
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\ref\CleanArchMvc.IoC.dll
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.pdb
@@ -17,6 +19,4 @@ C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\o
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\obj\Debug\net5.0\CleanArchMvc.IoC.dll
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\obj\Debug\net5.0\ref\CleanArchMvc.IoC.dll
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\obj\Debug\net5.0\CleanArchMvc.IoC.pdb
-C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.runtimeconfig.json
-C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\bin\Debug\net5.0\CleanArchMvc.IoC.runtimeconfig.dev.json
 C:\Users\Administrador\source\repos\CleanArchMvc\CleanArchMvc\CleanArchMvc.IoC\obj\Debug\net5.0\CleanArchMvc.IoC.genruntimeconfig.cache

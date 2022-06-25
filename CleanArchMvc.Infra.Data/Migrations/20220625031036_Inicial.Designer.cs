@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CleanArchMvc.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220624201513_SeedProducs")]
-    partial class SeedProducs
+    [Migration("20220625031036_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,17 +40,17 @@ namespace CleanArchMvc.Infra.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Moletons"
+                            Name = "Hoodies"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Camisetas"
+                            Name = "T-Shirts"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Tenis"
+                            Name = "Sneakers"
                         });
                 });
 
@@ -63,6 +63,11 @@ namespace CleanArchMvc.Infra.Data.Migrations
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -80,6 +85,11 @@ namespace CleanArchMvc.Infra.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Stock")
                         .HasColumnType("int");
