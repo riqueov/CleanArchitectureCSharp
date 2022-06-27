@@ -21,7 +21,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return product;
         }
 
-        public async Task<Product> DeleteAsync(Product product)
+        public async Task<Product> RemoveAsync(Product product)
         {
             _productContext.Remove(product);
             await _productContext.SaveChangesAsync();
@@ -33,7 +33,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return await _productContext.Products.FindAsync(id);
         }
 
-        public async Task<IEnumerable<Product>> GetCategories()
+        public async Task<IEnumerable<Product>> GetProductsAsync()
         {
             return await _productContext.Products.ToListAsync();
         }

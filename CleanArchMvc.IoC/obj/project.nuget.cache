@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P3Dhc6VlQJJfV+XO+lxd5Qnifti9mtWzxCerPj6EkB3/z8GKOI8SLWydVpgvOzWQFXbfFpXGGFVx4nYnG+BlHw==",
+  "dgSpecHash": "wYtE4RSACcPlLFJmSqHpRltnOKgXCwu94Q+2IpUAD18oGV5knGlDZe/mN3pvZjP+KKctXtlKuW1zTLe8IeMvxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrador\\source\\repos\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.IoC\\CleanArchMvc.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

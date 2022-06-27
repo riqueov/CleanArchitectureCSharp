@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ymm8VwI7007pDDhBTm49/9xWKMIX1viDQNhz+WhYcLFrlk64VGyVPLeCMYwq99+krnfK5Q2NWI6+Rqz90DXZig==",
+  "dgSpecHash": "hZnMcYmSCrM2bPPnNo9njmTs3hW97ML+JA3VDTv5rBc2jnJT7EVa6YT9hLi53HHY0CIJl8Yev3en6NYfEARrpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrador\\source\\repos\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.WebUi\\CleanArchMvc.WebUi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.13\\microsoft.aspnetcore.mvc.razor.extensions.5.0.13.nupkg.sha512",
