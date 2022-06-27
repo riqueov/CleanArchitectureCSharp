@@ -13,7 +13,7 @@ namespace CleanArchMvc.Application.Services
     {
         private IProductRepository _productRepository;
         readonly IMapper _mapper;
-        public ProductService(IProductRepository productRepository, Mapper mapper)
+        public ProductService(IProductRepository productRepository, IMapper mapper)
         {
             _productRepository = productRepository ??
                 throw new ArgumentNullException(nameof(productRepository));
